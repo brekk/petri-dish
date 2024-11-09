@@ -1,0 +1,15 @@
+import type { Adjective } from "@/Adjective"
+
+import IO from "IO"
+
+import { Adj } from "@/Adjective"
+import { Noun } from "@/Noun"
+
+
+
+main = () => {
+  pipe(
+    Noun("12345", $, "this is the core noun, the subject", []),
+    IO.pTrace("Main file for:"),
+  )("petri-dish")
+}

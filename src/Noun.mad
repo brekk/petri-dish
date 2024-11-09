@@ -1,0 +1,17 @@
+import type { Adjective } from "@/Adjective"
+
+import String from "String"
+
+
+
+export type Noun a
+  = Noun(
+    // id
+    String,
+    // name
+    String,
+    // description
+    String,
+    // adjectives
+    List (Adjective a),
+  )

@@ -1,0 +1,3 @@
+export type Modifier a b = Modifier(a -> b)
+
+export type Verb a b = { context :: Verb a b, fn :: Modifier a b, subject :: a }

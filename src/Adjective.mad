@@ -1,0 +1,5 @@
+import type { Predicate } from "@/logic"
+
+
+
+export type Adjective a = Adj(List (Predicate a), a)
